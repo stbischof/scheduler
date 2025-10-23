@@ -135,13 +135,37 @@
         <artifactId>osgi.annotation</artifactId>
         <version>${osgi.annotation.version}</version>
         <scope>provided</scope>
-      </dependency>
-      <dependency>
-        <groupId>org.osgi</groupId>
-        <artifactId>org.osgi.framework</artifactId>
-        <version>${osgi.framework.version}</version>
-        <scope>provided</scope>
-      </dependency>
+    </dependency>
+    <dependency>
+      <groupId>org.osgi</groupId>
+      <artifactId>org.osgi.service.component.annotations</artifactId>
+      <scope>provided</scope>
+      <version>${osgi.ds.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.osgi</groupId>
+      <artifactId>org.osgi.service.metatype.annotations</artifactId>
+      <scope>compile</scope>
+      <version>1.4.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.osgi</groupId>
+      <artifactId>org.osgi.namespace.implementation</artifactId>
+      <scope>compile</scope>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.osgi</groupId>
+      <artifactId>org.osgi.util.promise</artifactId>
+      <scope>compile</scope>
+      <version>1.3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.osgi</groupId>
+      <artifactId>org.osgi.framework</artifactId>
+      <version>${osgi.framework.version}</version>
+      <scope>provided</scope>
+    </dependency>
       <dependency>
         <groupId>org.osgi</groupId>
         <artifactId>org.osgi.util.tracker</artifactId>
@@ -168,6 +192,7 @@
         <groupId>org.osgi</groupId>
         <artifactId>org.osgi.service.component.annotations</artifactId>
         <version>${osgi.ds.version}</version>
+        <scope>provided</scope>
       </dependency>
       <dependency>
         <groupId>org.slf4j</groupId>
