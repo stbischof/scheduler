@@ -21,6 +21,8 @@
   </parent>
   <artifactId>basic</artifactId>
   <version>0.0.1</version>
+  <name>Scheduler Basic Implementation</name>
+
 
   <dependencies>
     <dependency>

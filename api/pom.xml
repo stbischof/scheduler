@@ -22,7 +22,7 @@
   <version>0.0.1</version>
 
   <artifactId>api</artifactId>
-
+  <name>Scheduler API</name>
 
   <dependencies>
     <dependency>
