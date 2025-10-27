@@ -17,9 +17,9 @@
   <parent>
     <groupId>org.eclipse.osgi-technology.scheduler</groupId>
     <artifactId>scheduler</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
   </parent>
-  <version>0.0.1</version>
+  <version>0.0.2-SNAPSHOT</version>
 
   <artifactId>api</artifactId>
   <name>Scheduler API</name>
@@ -47,7 +47,6 @@
 
 
   <build>
-
     <plugins>
       <plugin>
         <groupId>biz.aQute.bnd</groupId>

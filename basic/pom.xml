@@ -17,10 +17,10 @@
   <parent>
     <groupId>org.eclipse.osgi-technology.scheduler</groupId>
     <artifactId>scheduler</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
   </parent>
   <artifactId>basic</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2-SNAPSHOT</version>
   <name>Scheduler Basic Implementation</name>
 
 
