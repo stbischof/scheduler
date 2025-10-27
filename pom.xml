@@ -19,10 +19,11 @@
   <parent>
     <groupId>org.eclipse.osgi-technology</groupId>
     <artifactId>org.eclipse.osgi-technology.pom.parent</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
   </parent>
 
   <groupId>org.eclipse.osgi-technology.scheduler</groupId>
+  <version>0.0.1-SNAPSHOT</version>
 
 
   <artifactId>scheduler</artifactId>
@@ -187,12 +188,6 @@
         <groupId>org.osgi</groupId>
         <artifactId>org.osgi.service.component</artifactId>
         <version>${osgi.ds.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.osgi</groupId>
-        <artifactId>org.osgi.service.component.annotations</artifactId>
-        <version>${osgi.ds.version}</version>
-        <scope>provided</scope>
       </dependency>
       <dependency>
         <groupId>org.slf4j</groupId>
