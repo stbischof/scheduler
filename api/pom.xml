@@ -17,9 +17,9 @@
   <parent>
     <groupId>org.eclipse.osgi-technology.scheduler</groupId>
     <artifactId>scheduler</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
   </parent>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
 
   <artifactId>api</artifactId>
 

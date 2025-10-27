@@ -17,10 +17,10 @@
   <parent>
     <groupId>org.eclipse.osgi-technology.scheduler</groupId>
     <artifactId>scheduler</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
   </parent>
   <artifactId>basic</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
 
   <dependencies>
     <dependency>
@@ -30,7 +30,7 @@
     <dependency>
       <groupId>org.eclipse.osgi-technology.scheduler</groupId>
       <artifactId>api</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
+      <version>0.0.1</version>
     </dependency>
     <dependency>
       <groupId>org.osgi</groupId>
